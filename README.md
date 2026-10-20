@@ -13,4 +13,4 @@ npm run lint
 ## Deployment
 
 Pushes to `main` build and deploy to GitHub Pages via `.github/workflows/deploy.yml`.
-Live at https://ebongi.github.io/pulsenet-site/. The Vite `base` in `vite.config.js` must match the repo name.
+Live at https://ebongi.github.io/pulsenet-site/. The workflow sets `BASE_PATH=/pulsenet-site/`; other hosts such as Vercel build with the default `/`.
